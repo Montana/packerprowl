@@ -1,6 +1,6 @@
 # Packer Scripts for Prowl
 
-The first thing is you can pick what script you need, as soon as you start the Vagrant box, via 
+The first thing is install Packer, go to https://www.packer.io/intro/index.html. Moving on to the Packer scripts themselves you can pick what script you need, as soon as you start the Vagrant box, via 
 
 <pre>vagrant up</pre> 
 
@@ -20,4 +20,4 @@ Even though it says "virtualbox.json" in the command, it will work on VMWare Fus
 
 https://www.virtualbox.org/wiki/Technical_documentation
 
-
+These scripts are ideal to create identical images for different environments, to test Prowl on. Which is why these scripts exist. 
