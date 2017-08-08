@@ -12,3 +12,8 @@ Once you've done that, install VMWare Fusion, these scripts are made for and opt
 
 https://www.vmware.com/products/fusion.html
 
+As soon as you have VMWare Fusion installed, run 
+
+<pre>packer build virtualbox.json</pre> 
+
+Even though it says "virtualbox.json" in the command, it will work on VMWare Fusion just fine. Again, these scripts are optimized for VMWare Fusion, but you can use VirtualBox if you must. 
