@@ -2,6 +2,10 @@
 
 The first thing is install Packer, go to https://www.packer.io/intro/index.html. Moving on to the Packer scripts themselves you can pick what script you need, as soon as you start the Vagrant box, via 
 
+<pre>vagrant init hashicorp/precise64</pre>
+
+Then make the Vagrant box go up 
+
 <pre>vagrant up</pre> 
 
 Once you've done that make sure you have all of the dependecies you need, run 
