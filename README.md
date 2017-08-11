@@ -6,7 +6,7 @@ The first thing is install Packer, go to https://www.packer.io/intro/index.html.
 
 Or whatever box you want to Vagrant into, another example is 
 
-<pre>vagrant init ubuntu/trusty64 
+<pre>vagrant init ubuntu/trusty64</pre>
 
 Then make the Vagrant box go up 
 
