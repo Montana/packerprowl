@@ -4,6 +4,10 @@ The first thing is install Packer, go to https://www.packer.io/intro/index.html.
 
 <pre>vagrant init hashicorp/precise64</pre>
 
+Or whatever box you want to Vagrant into, another example is 
+
+<pre>vagrant init ubuntu/trusty64 
+
 Then make the Vagrant box go up 
 
 <pre>vagrant up</pre> 
@@ -25,3 +29,4 @@ Even though it says "virtualbox.json" in the command, it will work on VMWare Fus
 https://www.virtualbox.org/wiki/Technical_documentation
 
 These scripts are ideal to create identical images for different environments, to test Prowl on. Which is why these scripts exist. 
+
